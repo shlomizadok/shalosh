@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+canvas {
+  background: radial-gradient(#a0a097, #696961, black);
+}
+
+.color-link {
+  font-size: 1px;
+  margin: 20px;
+  border: 1px solid black;
+  padding: 20px;
+  cursor: pointer;
+  background: red;
+}
+.color-link.black {
+  background: black;
+}
+
+.color-link.white {
+  background: white;
+}
+
+.texture-link, .grave-link {
+  padding: 15px;
+  border: 2px solid black;
+  margin: 0px 20px;
+  cursor: pointer;
+}
+
+.texture-link.stone {
+  background: transparent url('/stone.png') repeat;
+}
+
+.texture-link.marvel {
+  background: transparent url('/grave3_pattern.png') repeat;
+}
+
+.texture-link.tomb {
+  background: transparent url('/tomestone2.png') repeat;
+}
